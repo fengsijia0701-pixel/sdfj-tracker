@@ -1,0 +1,15 @@
+[project]
+name = "sdfj-tracker"
+version = "0.1.0"
+description = "时代峰峻艺人动向收集器"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "apscheduler>=3.11.0",
+    "httpx>=0.28.0",
+    "sqlite-utils>=3.37.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.0", "pytest-asyncio>=0.25.0"]
