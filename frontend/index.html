@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时代峰峻艺人动向收集器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎤 时代峰峻艺人动向收集器</h1>
+        <p class="subtitle">追踪一代到四代艺人的最新动态</p>
+    </header>
+
+    <main>
+        <section class="filters">
+            <div class="filter-group">
+                <label>代际筛选：</label>
+                <select id="generationFilter">
+                    <option value="">全部</option>
+                    <option value="1">一代 - TFBOYS</option>
+                    <option value="2">二代 - 时代少年团</option>
+                    <option value="3">三代 - TOP登陆少年 / TF_ING</option>
+                    <option value="4">四代 - 一班 / 二班</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>平台筛选：</label>
+                <select id="platformFilter">
+                    <option value="">全部</option>
+                    <option value="weibo">微博</option>
+                    <option value="bilibili">哔哩哔哩</option>
+                    <option value="news">新闻</option>
+                </select>
+            </div>
+            <button id="refreshBtn" class="btn">🔄 刷新</button>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <span class="stat-number" id="artistCount">0</span>
+                <span class="stat-label">艺人</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="dynamicCount">0</span>
+                <span class="stat-label">动态</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="lastUpdate">--</span>
+                <span class="stat-label">最后更新</span>
+            </div>
+        </section>
+
+        <section class="artists-grid" id="artistsGrid">
+            <p class="loading">加载中...</p>
+        </section>
+
+        <section class="dynamics-timeline" id="dynamicsTimeline">
+            <h2>最新动态</h2>
+            <div id="dynamicsList">
+                <p class="loading">暂无动态数据</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>最后更新：<span id="footerUpdate">--</span></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
