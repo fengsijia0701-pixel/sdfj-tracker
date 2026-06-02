@@ -1,0 +1,300 @@
+{
+  "artists": [
+    {
+      "id": "wangjunkai",
+      "name": "王俊凯",
+      "generation": 1,
+      "group": "TFBOYS",
+      "group_type": "TFBOYS",
+      "is_active": true
+    },
+    {
+      "id": "wangyuan",
+      "name": "王源",
+      "generation": 1,
+      "group": "TFBOYS",
+      "group_type": "TFBOYS",
+      "is_active": true
+    },
+    {
+      "id": "yiyangyangqianxi",
+      "name": "易烊千玺",
+      "generation": 1,
+      "group": "TFBOYS",
+      "group_type": "TFBOYS",
+      "is_active": true
+    },
+    {
+      "id": "majiaqi",
+      "name": "马嘉祺",
+      "generation": 2,
+      "group": "时代少年团",
+      "group_type": "时代少年团",
+      "is_active": true
+    },
+    {
+      "id": "dingchengxin",
+      "name": "丁程鑫",
+      "generation": 2,
+      "group": "时代少年团",
+      "group_type": "时代少年团",
+      "is_active": true
+    },
+    {
+      "id": "songyaxuan",
+      "name": "宋亚轩",
+      "generation": 2,
+      "group": "时代少年团",
+      "group_type": "时代少年团",
+      "is_active": true
+    },
+    {
+      "id": "liuwenyao",
+      "name": "刘耀文",
+      "generation": 2,
+      "group": "时代少年团",
+      "group_type": "时代少年团",
+      "is_active": true
+    },
+    {
+      "id": "zhangzhenyuan",
+      "name": "张真源",
+      "generation": 2,
+      "group": "时代少年团",
+      "group_type": "时代少年团",
+      "is_active": true
+    },
+    {
+      "id": "yanhaoxiang",
+      "name": "严浩翔",
+      "generation": 2,
+      "group": "时代少年团",
+      "group_type": "时代少年团",
+      "is_active": true
+    },
+    {
+      "id": "hejunlin",
+      "name": "贺峻霖",
+      "generation": 2,
+      "group": "时代少年团",
+      "group_type": "时代少年团",
+      "is_active": true
+    },
+    {
+      "id": "zhuzhixin",
+      "name": "朱志鑫",
+      "generation": 3,
+      "group": "TOP登陆少年",
+      "group_type": "TOP登陆少年",
+      "is_active": true
+    },
+    {
+      "id": "suxinhao",
+      "name": "苏新皓",
+      "generation": 3,
+      "group": "TOP登陆少年",
+      "group_type": "TOP登陆少年",
+      "is_active": true
+    },
+    {
+      "id": "zhangji",
+      "name": "张极",
+      "generation": 3,
+      "group": "TOP登陆少年",
+      "group_type": "TOP登陆少年",
+      "is_active": true
+    },
+    {
+      "id": "zhangzeyu",
+      "name": "张泽禹",
+      "generation": 3,
+      "group": "TOP登陆少年",
+      "group_type": "TOP登陆少年",
+      "is_active": true
+    },
+    {
+      "id": "zuohang",
+      "name": "左航",
+      "generation": 3,
+      "group": "TOP登陆少年",
+      "group_type": "TOP登陆少年",
+      "is_active": true
+    },
+    {
+      "id": "dengjiaxin",
+      "name": "邓佳鑫",
+      "generation": 3,
+      "group": "TF_ING",
+      "group_type": "TF_ING",
+      "is_active": true
+    },
+    {
+      "id": "tongyukun",
+      "name": "童禹坤",
+      "generation": 3,
+      "group": "TF_ING",
+      "group_type": "TF_ING",
+      "is_active": true
+    },
+    {
+      "id": "muzhichen",
+      "name": "穆祉丞",
+      "generation": 3,
+      "group": "TF_ING",
+      "group_type": "TF_ING",
+      "is_active": true
+    },
+    {
+      "id": "huangshuo",
+      "name": "黄朔",
+      "generation": 3,
+      "group": "TF_ING",
+      "group_type": "TF_ING",
+      "is_active": true
+    },
+    {
+      "id": "zhangzimo",
+      "name": "张子墨",
+      "generation": 3,
+      "group": "TF_ING",
+      "group_type": "TF_ING",
+      "is_active": true
+    },
+    {
+      "id": "zhangjunhao",
+      "name": "张峻豪",
+      "generation": 3,
+      "group": "TF_ING",
+      "group_type": "TF_ING",
+      "is_active": true
+    },
+    {
+      "id": "yaoyuchen",
+      "name": "姚昱辰",
+      "generation": 3,
+      "group": "TF_ING",
+      "group_type": "TF_ING",
+      "is_active": true
+    },
+    {
+      "id": "chenjunning",
+      "name": "陈浚铭",
+      "generation": 4,
+      "group": "一班",
+      "group_type": "一班",
+      "is_active": true
+    },
+    {
+      "id": "zhangguiyuan",
+      "name": "张桂源",
+      "generation": 4,
+      "group": "一班",
+      "group_type": "一班",
+      "is_active": true
+    },
+    {
+      "id": "zhanghanrui",
+      "name": "张函瑞",
+      "generation": 4,
+      "group": "一班",
+      "group_type": "一班",
+      "is_active": true
+    },
+    {
+      "id": "wanglujie",
+      "name": "王橹杰",
+      "generation": 4,
+      "group": "一班",
+      "group_type": "一班",
+      "is_active": true
+    },
+    {
+      "id": "zuoqihan",
+      "name": "左奇函",
+      "generation": 4,
+      "group": "一班",
+      "group_type": "一班",
+      "is_active": true
+    },
+    {
+      "id": "yangbowen",
+      "name": "杨博文",
+      "generation": 4,
+      "group": "一班",
+      "group_type": "一班",
+      "is_active": true
+    },
+    {
+      "id": "chenyiheng",
+      "name": "陈奕恒",
+      "generation": 4,
+      "group": "一班",
+      "group_type": "一班",
+      "is_active": true
+    },
+    {
+      "id": "chensihan",
+      "name": "陈思罕",
+      "generation": 4,
+      "group": "一班",
+      "group_type": "一班",
+      "is_active": true
+    },
+    {
+      "id": "guanjunchen",
+      "name": "官俊臣",
+      "generation": 4,
+      "group": "二班",
+      "group_type": "二班",
+      "is_active": true
+    },
+    {
+      "id": "yanghanbo",
+      "name": "杨涵博",
+      "generation": 4,
+      "group": "二班",
+      "group_type": "二班",
+      "is_active": true
+    },
+    {
+      "id": "weizichen",
+      "name": "魏子宸",
+      "generation": 4,
+      "group": "二班",
+      "group_type": "二班",
+      "is_active": true
+    },
+    {
+      "id": "nieweichen",
+      "name": "聂玮辰",
+      "generation": 4,
+      "group": "二班",
+      "group_type": "二班",
+      "is_active": true
+    },
+    {
+      "id": "liyudong",
+      "name": "李煜东",
+      "generation": 4,
+      "group": "二班",
+      "group_type": "二班",
+      "is_active": true
+    },
+    {
+      "id": "wangshuoran",
+      "name": "王烁然",
+      "generation": 4,
+      "group": "二班",
+      "group_type": "二班",
+      "is_active": true
+    },
+    {
+      "id": "zhangyiran",
+      "name": "张奕然",
+      "generation": 4,
+      "group": "二班",
+      "group_type": "二班",
+      "is_active": true
+    }
+  ]
+}
