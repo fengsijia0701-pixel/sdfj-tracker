@@ -4,8 +4,20 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse
 from pathlib import Path
+from contextlib import asynccontextmanager
 from backend.api.routes import router as api_router
 from backend.database import init_database
+from backend.scheduler import start_scheduler, stop_scheduler
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # 启动时
+    start_scheduler()
+    yield
+    # 关闭时
+    stop_scheduler()
+
 
 # 初始化数据库
 init_database()
@@ -14,6 +26,7 @@ app = FastAPI(
     title="时代峰峻艺人动向收集器",
     description="追踪一代到四代艺人的最新动态",
     version="0.1.0",
+    lifespan=lifespan,
 )
 
 # 挂载 API 路由
